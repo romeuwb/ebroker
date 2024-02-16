@@ -1,0 +1,1812 @@
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  #view_appartment {
+    min-width: 450px;
+    width: 450px;
+    height: 500px;
+  }
+  .horizontal_card #prop_card_img {
+    height: 100%;
+    /* width: 50%; */
+  }
+  .horizontal_card #main_prop_card_body .prop_price {
+    margin-top: 165px;
+  }
+  .horizontal_card #main_prop_card_body .prop_sell {
+    margin-top: 160px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* HEADER CSS START */
+  .dropdown-menu {
+    width: 16vw !important;
+  }
+
+  /* HEADER CSS END  */
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  /* HEADER CSS START */
+  
+
+  /* HEADER CSS END  */
+  /* APARTMENT CSS START  */
+  #view_appartment {
+    min-width: 450px;
+    width: 450px;
+    height: 500px;
+  }
+  /* APARTMENT CSS END  */
+  .horizontal_card #prop_card_img {
+    height: 100%;
+  }
+  .horizontal_card #main_prop_card_body .prop_price {
+    margin-top: 165px;
+  }
+  .horizontal_card #main_prop_card_body .prop_sell {
+    margin-top: 160px;
+  }
+  .download_app_platforms #playstore_logo img,
+  #appstore_logo img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #article_cards .col-lg-3 {
+    width: 50%;
+  }
+  .feature-section-cards #feature_cards .col-lg-3 {
+    width: 33%;
+  }
+
+  .feature_header {
+    display: none;
+  }
+  /* APARTMENT CSS START  */
+  #view-all-apartment {
+    display: none;
+  }
+  .mobile-headline-view {
+    display: block;
+    padding-bottom: 20px;
+  }
+  #apartments {
+    overflow: hidden;
+  }
+  #all-apart-cards {
+    width: 100% !important;
+  }
+
+  .aprt_cards {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+  }
+
+  /* APARTMENT CSS END  */
+  /* MOST VIEWED PROPERTIES START */
+  #main_properties .col-md-4 {
+    width: 100%;
+  }
+  #prop {
+    padding-top: 30px;
+    top: 0;
+  }
+  #prop_cards {
+    top: 0;
+  }
+  .horizontal_card .image_div {
+    border-radius: 12px 12px 0 0px;
+  }
+  .horizontal_card #main_prop_card {
+    flex-direction: column;
+  }
+  .horizontal_card #prop_card_img {
+    border-radius: 12px 12px 0 0 !important;
+  }
+  .horizontal_card #main_prop_card_body .prop_like {
+    right: 10px;
+    top: 10px;
+  }
+  .horizontal_card #main_prop_card_body .prop_sell {
+    margin-top: -60px;
+  }
+  .horizontal_card .prop_price {
+    right: 10px;
+    margin-top: -60px !important;
+  }
+  .prop_header {
+    display: none;
+  }
+  .prop_city_header {
+    display: none;
+  }
+  /* MOST VIEWED PROPERTIES END  */
+  /* MOST FAV PROPERTIES START  */
+  .most_fav_header {
+    display: none;
+  }
+  /* MOST FAV PROPERTIES END  */
+  /* AGENT  START  */
+  #browse-by-agents {
+    display: none;
+  }
+  #agent-slider-cards {
+    width: 100%;
+  }
+  .agents-cards {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 960px;
+  }
+  /* AGENT  END  */
+  /* ARTICLES  START  */
+  .article_headline {
+    display: none;
+  }
+  /* ARTICLES  END  */
+
+  /* Footer Section start */
+  .download_app_platforms #playstore_logo img,
+  #appstore_logo img {
+    width: 100%;
+  }
+  /* Footer Section End */
+
+  /* All Propertie Page start */
+  #columnCards #all-prop-col-cards .col-lg-4 {
+    width: 50%;
+  }
+  #filter-title {
+    gap: 0;
+  }
+  #all-prop-containt #filter-title span {
+    font-size: 15px;
+  }
+  #all-prop-containt .filter-button-box #props-tabs li {
+    width: 100%;
+  }
+  /* All Propertie Page end  */
+  /* All ARTICLE Page STATRT  */
+
+  #all-articles-content #main-content .col-lg-9 {
+    width: 100%;
+  }
+  #all-articles-content #main-content .col-lg-3 {
+    width: 100%;
+  }
+  #all-articles-content #main-content .all-articles-leftside {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  #all-articles-content #main-content .cate-card {
+    width: 100%;
+  }
+  #all-articles-content #main-content .popular-tag-card {
+    margin-top: 0;
+    width: 100%;
+  }
+  /* All ARTICLE Page end  */
+  /* All ARTICLE Page end  */
+  /* ==================== FEATURE PROPERTIE SECTION START=========================== */
+  #featured_prop_section .col-lg-3 {
+    width: 33%;
+  }
+  /* ==================== FEATURE PROPERTIE SECTION END=========================== */
+  /* ==================== MOST VIEWED ALL SECTION START=========================== */
+  #most_viewed_prop_section .col-lg-3 {
+    width: 33%;
+  }
+  /* ==================== MOST VIEWED ALL SECTION END=========================== */
+  /* ==================== MOST fav ALL SECTION START=========================== */
+  #most_fav_prop_section .col-lg-3 {
+    width: 33%;
+  }
+  /* ==================== MOST fav ALL SECTION END=========================== */
+  /* ==================== MOST fav ALL SECTION START=========================== */
+  #most_fav_prop_section .col-lg-3 {
+    width: 33%;
+  }
+  /* ==================== MOST fav ALL SECTION END=========================== */
+  /* ==================== all agents  SECTION START=========================== */
+  #all_agents_section .col-lg-3 {
+    width: 33%;
+  }
+  /* ==================== agents ALL SECTION END=========================== */
+  /* ==================== all cate  SECTION START=========================== */
+  #view_all_cate_section .col-lg-2 {
+    width: 33%;
+  }
+  /* ==================== cate ALL SECTION END=========================== */
+
+  /*=============== ALL ARTICLE PAGE START ============= */
+  #all-articles-deatil-content #main-content .col-lg-9 {
+    width: 100%;
+  }
+  #all-articles-deatil-content #main-content .col-lg-3 {
+    width: 100%;
+  }
+  #all-articles-deatil-content #main-content .all-articles-leftside {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  #all-articles-deatil-content #main-content .cate-card {
+    width: 100%;
+  }
+  #all-articles-deatil-content #main-content .popular-tag-card {
+    margin-top: 0;
+    width: 100%;
+  }
+  #all-articles-deatil-content #main-content .recent-article-card {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* HERO SECTION  CSS START  */
+  #priceteg {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #hero_headlines {
+    font-size: 35px;
+  }
+
+  /* HERO SECTION CSS END  */
+  .feature_header {
+    display: none;
+  }
+  /* APARTMENT CSS START  */
+  #view-all-apartment {
+    display: none;
+  }
+  .mobile-headline-view {
+    display: block;
+    padding-bottom: 0px;
+  }
+  #apartments {
+    overflow: hidden;
+  }
+  #all-apart-cards {
+    width: 100%;
+  }
+  .aprt_cards {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 720px;
+  }
+
+  /* APARTMENT CSS END  */
+  /* MOST VIEWED PROPERTIES START */
+  #main_properties .col-md-4 {
+    width: 100%;
+  }
+  .prop_header {
+    display: none;
+  }
+  .horizontal_card #main_prop_card {
+    flex-direction: column;
+  }
+  .horizontal_card .image_div {
+    border-radius: 12px 12px 0 0px;
+  }
+  .horizontal_card #prop_card_img {
+    border-radius: 12px 12px 0 0 !important;
+  }
+  .horizontal_card #main_prop_card_body .prop_like {
+    right: 10px;
+    top: 10px;
+  }
+  .horizontal_card #main_prop_card_body .prop_sell {
+    margin-top: -60px;
+  }
+  .horizontal_card #main_prop_card_body .prop_price {
+    right: 10px;
+    margin-top: -60px !important;
+  }
+  .prop_city_header {
+    display: none;
+  }
+  /* MOST VIEWED PROPERTIES END  */
+  /* MOST FAV PROPERTIES START  */
+  .most_fav_header {
+    display: none;
+  }
+  /* MOST FAV PROPERTIES END  */
+  /* AGENT  START  */
+  #browse-by-agents {
+    display: none;
+  }
+  #agent-slider-cards {
+    width: 100%;
+  }
+  .agents-cards {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 720px;
+  }
+  /* AGENT  END  */
+  /* ARTICLES  START  */
+  .article_headline {
+    display: none;
+  }
+  /* ARTICLES  END  */
+  /* All Propertie Page start  */
+
+  #filter-title {
+    gap: 0;
+  }
+  #all-prop-containt #filter-title span {
+    font-size: 15px;
+  }
+  #all-prop-containt .filter-button-box #props-tabs li {
+    width: 50%;
+  }
+  /* All Propertie Page end  */
+  /* All ARTICLE Page STATRT  */
+
+  #all-articles-content #main-content .col-lg-9 {
+    width: 100%;
+  }
+  #all-articles-content #main-content .col-lg-3 {
+    width: 100%;
+  }
+  #all-articles-content #main-content .all-articles-leftside {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  #all-articles-content #main-content .cate-card {
+    width: 100%;
+  }
+  #all-articles-content #main-content .popular-tag-card {
+    margin-top: 0;
+    width: 100%;
+  }
+  #all-articles-deatil-content #main-content .recent-article-card {
+    margin: 0;
+    width: 100%;
+  }
+  /*=============== ALL ARTICLE PAGE START ============= */
+  #all-articles-deatil-content #main-content .col-lg-9 {
+    width: 100%;
+  }
+  #all-articles-deatil-content #main-content .col-lg-3 {
+    width: 100%;
+  }
+  #all-articles-deatil-content #main-content .all-articles-leftside {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  #all-articles-deatil-content #main-content .cate-card {
+    width: 100%;
+  }
+  #all-articles-deatil-content #main-content .popular-tag-card {
+    margin-top: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  /* HERO SECTION  CSS START  */
+  #priceteg {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #hero_headlines {
+    font-size: 35px;
+  }
+  .hero-slider-previous-button {
+    display: none;
+  }
+  .hero-slider-next-button {
+    display: none;
+  }
+
+  #searchcard {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 15vh;
+  }
+  #searchbuttoon {
+    width: 100%;
+  }
+  /* HERO SECTION  CSS END  */
+  .feature_header {
+    display: none;
+  }
+  /* APARTMENT CSS START  */
+  #view-all-apartment {
+    display: none;
+  }
+  .mobile-headline-view {
+    display: block;
+    padding-bottom: 10px;
+  }
+  #apartments {
+    overflow: hidden;
+  }
+  #all-apart-cards {
+    width: 100%;
+  }
+  .aprt_cards {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 540px;
+  }
+
+  /* APARTMENT CSS END  */
+  /* MOST VIEWED PROPERTIES START */
+  .prop_header {
+    display: none;
+  }
+  .horizontal_card #main_prop_card {
+    flex-direction: column;
+  }
+  .horizontal_card .image_div {
+    border-radius: 12px 12px 0 0px;
+  }
+  .horizontal_card #prop_card_img {
+    border-radius: 12px 12px 0 0 !important;
+  }
+  .horizontal_card #main_prop_card_body .prop_like {
+    right: 10px;
+    top: 10px;
+  }
+  .horizontal_card #main_prop_card_body .prop_sell {
+    margin-top: -60px;
+  }
+  .horizontal_card #main_prop_card_body .prop_price {
+    right: 10px;
+    margin-top: -60px !important;
+  }
+  .prop_city_header {
+    display: none;
+  }
+  /* MOST VIEWED PROPERTIES END  */
+  /* MOST FAV PROPERTIES START  */
+  .most_fav_header {
+    display: none;
+  }
+  /* MOST FAV PROPERTIES END  */
+  /* AGENT  START  */
+  #browse-by-agents {
+    display: none;
+  }
+  #agent-slider-cards {
+    width: 100%;
+  }
+  .agents-cards {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 540px;
+  }
+  /* AGENT  END  */
+  /* ARTICLES  START  */
+  .article_headline {
+    display: none;
+  }
+  /* ARTICLES  END  */
+}
+@media only screen and (min-width: 400px) and (max-width: 574px) {
+  /* HERO SECTION  CSS START  */
+  #priceteg {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #hero_headlines {
+    font-size: 35px;
+  }
+
+  #searchcard {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 15vh;
+  }
+  #searchbuttoon {
+    width: 100%;
+  }
+  #searchbox #tabs #sellbutton {
+    padding: 0px 50px;
+    width: auto;
+  }
+  #searchbox #tabs #rentbutton {
+    padding: 0px 50px;
+    width: auto;
+  }
+  /* HERO SECTION  CSS END  */
+  /* FEATURE SECTION  CSS START  */
+  .feature_header {
+    display: none;
+  }
+
+  /* HERO SECTION  CSS END  */
+
+  /* APARTMENT CSS START  */
+  #view-all-apartment {
+    display: none;
+  }
+  #mobile-headlines {
+    justify-content: space-between;
+  }
+  .mobile-headline-view {
+    display: block;
+    padding-bottom: 0px;
+  }
+  #view_all_arrow {
+    border: 0px solid #fff;
+    outline: 7px solid #000;
+    background: white;
+    color: #000;
+    border-radius: 100%;
+    padding: 2px;
+    /* width: 30px; */
+    /* height: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #apartments {
+    overflow: hidden;
+  }
+  #all-apart-cards {
+    width: 100%;
+  }
+  .aprt_cards {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 540px;
+  }
+
+  /* APARTMENT CSS END  */
+  .headline {
+    font-size: 25px;
+  }
+
+  /* MOST VIEWED PROPERTIES START */
+  .prop_header {
+    display: none;
+  }
+  .horizontal_card #main_prop_card {
+    flex-direction: column;
+  }
+  .horizontal_card .image_div {
+    border-radius: 12px 12px 0 0px;
+  }
+  .horizontal_card #prop_card_img {
+    border-radius: 12px 12px 0 0 !important;
+  }
+  .horizontal_card #main_prop_card_body .prop_like {
+    right: 10px;
+    top: 10px;
+  }
+  .horizontal_card #main_prop_card_body .prop_sell {
+    margin-top: -60px;
+  }
+  .horizontal_card #main_prop_card_body .prop_price {
+    right: 10px;
+    margin-top: -60px !important;
+  }
+  .prop_city_header {
+    display: none;
+  }
+  /* MOST VIEWED PROPERTIES END  */
+  /* MOST FAV PROPERTIES START  */
+  .most_fav_header {
+    display: none;
+  }
+  /* MOST FAV PROPERTIES END  */
+  /* AGENT  START  */
+  #browse-by-agents {
+    display: none;
+  }
+  #agent-slider-cards {
+    width: 100%;
+  }
+  .agents-cards {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 540px;
+  }
+  /* AGENT  END  */
+  /* ARTICLES  START  */
+  .article_headline {
+    display: none;
+  }
+  /* ARTICLES  END  */
+}
+@media only screen and (max-width: 399px) {
+  /* mobile headline */
+  #mobile-headlines {
+    justify-content: space-between;
+  }
+  .headline {
+    font-size: 25px;
+  }
+  /* HERO SECTION  CSS START  */
+  #priceteg {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #hero_headlines {
+    font-size: 35px;
+  }
+  #specifiaction {
+    font-size: 25px;
+  }
+
+  #searchcard {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 15vh;
+  }
+  #searchbuttoon {
+    width: 100%;
+  }
+  #searchbox #tabs #sellbutton {
+    padding: 0px 50px;
+    width: auto;
+  }
+  #searchbox #tabs #rentbutton {
+    padding: 0px 50px;
+    width: auto;
+  }
+  .searchinput {
+    width: 100%;
+  }
+
+
+  /* HERO SECTION  CSS END  */
+  /* FEATURE SECTION  CSS START  */
+  .feature_header {
+    display: none;
+  }
+  #mobile_view_titles {
+    display: block;
+  }
+  .view_all_arrow {
+    background: white;
+    color: var(--primary-color);
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 4vh;
+  }
+  .mobile_view_headline01 {
+    display: flex;
+    color: #000;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 0 5% 0 5%; */
+    position: relative;
+    /* top: 30px; */
+  }
+  /* HERO SECTION  CSS END  */
+
+  /* APARTMENT CSS START  */
+  #view-all-apartment {
+    display: none;
+  }
+
+  .mobile-headline-view {
+    display: block;
+    padding-bottom: 0px;
+  }
+
+  #view_all_arrow {
+    border: 0px solid #fff;
+    outline: 7px solid #000;
+    background: white;
+    color: #000;
+    border-radius: 100%;
+    padding: 2px;
+    /* width: 30px; */
+    /* height: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #apartments {
+    overflow: hidden;
+  }
+  #all-apart-cards {
+    width: 100%;
+  }
+  .aprt_cards {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 540px;
+  }
+
+  /* APARTMENT CSS END  */
+  /* MOST VIEWED PROPERTIES START */
+  .prop_header {
+    display: none;
+  }
+  .horizontal_card #main_prop_card {
+    flex-direction: column;
+  }
+  .horizontal_card .image_div {
+    border-radius: 12px 12px 0 0px;
+  }
+  .horizontal_card #prop_card_img {
+    border-radius: 12px 12px 0 0 !important;
+  }
+  .horizontal_card #main_prop_card_body .prop_like {
+    right: 10px;
+    top: 10px;
+  }
+  .horizontal_card #main_prop_card_body .prop_sell {
+    margin-top: -60px;
+  }
+  .horizontal_card #main_prop_card_body .prop_price {
+    right: 10px;
+    margin-top: -60px !important;
+  }
+  .prop_city_header {
+    display: none;
+  }
+  /* MOST VIEWED PROPERTIES END  */
+  /* MOST FAV PROPERTIES START  */
+  .most_fav_header {
+    display: none;
+  }
+  /* MOST FAV PROPERTIES END  */
+  /* AGENT  START  */
+  #browse-by-agents {
+    display: none;
+  }
+  #agent-slider-cards {
+    width: 100%;
+  }
+  .agents-cards {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 540px;
+  }
+  /* AGENT  END  */
+  /* ARTICLES  START  */
+  .article_headline {
+    display: none;
+  }
+  /* ARTICLES  END  */
+}
+
+/* MAX WIDTH RESPOSNSIVE */
+
+@media only screen and (max-width: 1199px) {
+  #hamburg {
+    display: block !important;
+    color: #fff;
+  }
+  .center-side {
+    display: none !important;
+  }
+  .right-side {
+    display: none !important;
+  }
+  .left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .mobile_nav {
+    color: #000;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .navbar-nav {
+    align-items: flex-start;
+    gap: 25px;
+  }
+  #mobile-ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .nav-item {
+    color: #fff !important;
+    background-color: var(--primary-color);
+    font: var(--primary-font);
+    width: 100%;
+    border-radius: 10px;
+    text-align: -webkit-center;
+    padding: 0 20px;
+    cursor: pointer;
+}
+  .mobile-nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    align-items: center;
+    text-align: -webkit-center;
+  }
+  .mobile-nav-dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: -webkit-center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 0 20px;
+  }
+  div.dropdown {
+    width: 100%;
+    background-color: var(--primary-color);
+    width: 100%;
+    color: #ffffff !important;
+    border-radius: 10px;
+  }
+  #dropdown {
+    width: 100%;
+    background-color: transparent;
+    width: 100%;
+    color: inherit;
+    border-radius: 10px;
+  }
+  .dropdown-menu {
+    width: 100%;
+  }
+  #dropdown-basic {
+    color: #ffffff !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #addbutton-mobile {
+    color: #ffffff !important;
+    background: transparent;
+    border: none;
+    padding: 10px;
+    width: 100%;
+  }
+  .offcanvas-header .btn-close:focus {
+    border: 2px solid var(--primary-color);
+    box-shadow: var(--primary-color) !important;
+  }
+}
+
+/* Shaihid's resposives css  */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #breadcrumb-content {
+    /* margin: 0 8% 0 8%; */
+  }
+
+  .download_app_platforms #playstore_logo img,
+  .download_app_platforms #appstore_logo img {
+    height: 66px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 991px) {
+  #breadcrumb-content {
+    top: 150px;
+  }
+
+
+
+  .prop-Location {
+    font-size: 14px;
+  }
+
+  .right-side-content span {
+    font-size: 25px;
+  }
+
+  .right-side-content button {
+    padding: 5px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 423px) {
+  #breadcrumb-content {
+    /* margin: 0 5% 0 5%; */
+    top: 150px;
+  }
+
+
+  .prop-Location {
+    font-size: 14px !important;
+  }
+
+  .prop-sell-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .right-side-content span {
+    font-size: 25px;
+  }
+
+  .right-side-content button {
+    padding: 5px;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1850px) {
+  #all-prop-containt .all-footer-body {
+    gap: 16px;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1650px) {
+  .uper-specification,
+  .down-specification {
+    gap: 4%;
+  }
+
+  #owner-deatils-card .card-body svg {
+    width: 3vw;
+    height: 8vh;
+  }
+
+  #owner-deatils-card #call-o,
+  #mail-o,
+  #chat-o {
+    padding: 8px;
+  }
+
+  .enquiry {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .enquiry-buttons {
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .enquiry-buttons svg {
+    width: 30px !important;
+  }
+
+  /* .properties details  ends */
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  #all-content-deatil {
+    margin: 0 4%;
+  }
+
+  .uper-specification,
+  .down-specification {
+    gap: 2%;
+  }
+
+  #specification {
+    gap: 20px;
+  }
+
+  #owner-deatils-card .card-body svg {
+    width: 3vw;
+    height: 8vh;
+  }
+
+  #owner-deatils-card #call-o,
+  #mail-o,
+  #chat-o {
+    padding: 8px;
+  }
+
+  .enquiry {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .enquiry-buttons {
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .enquiry-buttons svg {
+    width: 30px !important;
+  }
+
+  #main-all-prop .all-prop-rightside .all-footer-body {
+    gap: 16px;
+  }
+
+  #main-all-prop .all-prop-rightside #all-footer-content {
+    gap: 18px;
+  }
+
+  #main-all-prop .all-prop-rightside #all-prop-card-img {
+    width: 340px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .enquiry {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+  #prop-all-deatils-cards {
+    gap: 20px 0px;
+    flex-direction: column-reverse;
+  }
+  #prop-all-deatils-cards .col-lg-9 {
+    width: 100%;
+  }
+
+  #prop-all-deatils-cards .col-lg-3 {
+    width: 100%;
+  }
+
+  #all-content-deatil {
+    margin: 0 4%;
+  }
+
+  .uper-specification,
+  .down-specification {
+    gap: 1%;
+  }
+
+  #specification {
+    gap: 10px;
+  }
+
+  #owner-deatils-card .card-body svg {
+    width: 4vw;
+    height: 8vh;
+  }
+
+  #owner-deatils-card #call-o,
+  #mail-o,
+  #chat-o {
+    padding: 8px;
+  }
+
+  .enquiry {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .enquiry-buttons {
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .enquiry-buttons svg {
+    width: 30px !important;
+  }
+
+  #card-owner-header {
+    gap: 14px;
+    padding: 12px;
+  }
+
+  .owner-contact {
+    gap: 15px;
+  }
+
+  .deatilss {
+    gap: 5px;
+    /* width: 10vw; */
+  }
+
+  #main-all-prop #main-all-prop-card {
+    height: fit-content;
+  }
+
+  #main-all-prop #all-prop-card-footer {
+    width: 32vw;
+  }
+
+  #main-all-prop .all-footer-body {
+    gap: 16px;
+  }
+
+  #main-all-prop #all-footer-content {
+    gap: 18px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #main-all-prop #all-prop-card-img {
+    width: 340px;
+    height: 100%;
+  }
+
+  #main-all-prop .all-footer-body {
+    gap: 16px;
+    flex-direction: column;
+  }
+
+  #main-all-prop .all-prop_like,
+  .all-prop_price {
+    right: 60%;
+  }
+
+  #main-all-prop .all-prop_price {
+    top: 90%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #prop-images .col-lg-3 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+  #prop-all-deatils-cards {
+    gap: 20px 0px;
+    flex-direction: column-reverse;
+  }
+  #prop-images {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #prop-main-image {
+    width: 100%;
+  }
+
+  .right-imgs01 {
+    border-radius: 0 0px 0 12px;
+  }
+
+  #owner-deatils-card {
+    margin-top: 24px;
+  }
+
+  .uper-specification,
+  .down-specification {
+    gap: 1%;
+  }
+
+  #specification {
+    gap: 12px;
+  }
+
+  #main-all-prop-card {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  #all-prop-card-img {
+    width: 100%;
+    height: 280px;
+  }
+
+  .all-prop_sell {
+    top: 34%;
+    bottom: 60%;
+  }
+
+  .all-prop_price {
+    top: 35%;
+    right: 10%;
+  }
+
+  .all-prop_like {
+    right: 8%;
+  }
+
+  #filter-title {
+    padding: 10px 20px;
+    justify-content: space-between;
+  }
+
+  .filter-button-box #props-tabs #prop-sellbutton,
+  .filter-button-box #props-tabs #prop-rentbutton {
+    font-size: 13px;
+  }
+
+  .apply-filter {
+    align-items: center;
+  }
+
+  .posted-duration {
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .all-prop-rightside .card {
+    border: none;
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  #prop-images .col-lg-3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #prop-images {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #prop-main-image {
+    width: 100%;
+  }
+
+  .right-imgs01 {
+    border-radius: 0 0px 0 12px;
+  }
+  #prop-all-deatils-cards {
+    gap: 20px 0px;
+    flex-direction: column-reverse;
+  }
+  .left-imgs02 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-propertie,
+  #features-amenities,
+  #propertie-address,
+  #prop-video,
+  #prop-360-view,
+  #owner-deatils-card {
+    width: 100%;
+  }
+
+  .owner-img {
+    width: 18vw;
+    height: 12vh;
+  }
+
+  #owner-deatils-card {
+    margin-top: 24px;
+  }
+
+  #features-amenities .card-body {
+    flex-direction: row;
+  }
+
+  .uper-specification,
+  .down-specification {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  #specification {
+    gap: 12px;
+  }
+
+  #main-all-prop-card {
+    height: fit-content;
+  }
+
+  #main-all-prop-card {
+    flex-direction: column;
+  }
+
+  #all-prop-card-img {
+    width: 100%;
+  }
+  #all-prop-card-footer {
+    width: 100%;
+  }
+  .all-prop_like,
+  .all-prop_price {
+    right: 8%;
+  }
+
+  .all-prop_price {
+    top: 30%;
+  }
+
+  .all-prop_sell {
+    bottom: 62%;
+  }
+
+  .all-footer-body {
+    flex-direction: column;
+  }
+
+  #all-footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .posted-duration {
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .all-prop-rightside .card {
+    border: none;
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+  #prop-all-deatils-cards {
+    gap: 20px 0px;
+    flex-direction: column-reverse;
+  }
+  #prop-images .col-lg-3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #prop-images {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #prop-main-image {
+    width: 100%;
+  }
+
+  .right-imgs01 {
+    border-radius: 0 0px 0 12px;
+  }
+
+  .left-imgs02 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 12px 0px 0px;
+  }
+
+  .about-propertie,
+  #features-amenities,
+  #propertie-address,
+  #prop-video,
+  #prop-360-view,
+  #owner-deatils-card {
+    width: 100%;
+  }
+
+  .owner-img {
+    width: 18vw;
+    height: 12vh;
+  }
+
+  #owner-deatils-card {
+    margin-top: 24px;
+  }
+
+  #features-amenities .card-body {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .uper-specification,
+  .down-specification {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  #specification {
+    gap: 12px;
+  }
+
+  #specs-deatils {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  #main-all-prop-card {
+    height: fit-content;
+  }
+
+  #main-all-prop-card {
+    flex-direction: column;
+  }
+
+  #all-prop-card-img {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  #all-prop-card-footer {
+    width: 100%;
+  }
+
+  #props-tabs {
+    width: 80vw;
+  }
+
+  .all-prop_like,
+  .all-prop_price {
+    right: 8%;
+  }
+
+  .all-prop_price {
+    top: 32%;
+  }
+
+  .all-prop_sell {
+    bottom: 62%;
+  }
+
+  .all-footer-body {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #all-footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .all-prop-rightside .card #all-prop-headline-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .posted-duration {
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .all-prop-rightside .card {
+    border: none;
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .posted-duration {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .enquiry .enquiry-buttons {
+    font-size: 13px;
+  }
+}
+
+/* .properties details  ends */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #searchcard {
+    justify-content: center;
+    padding: 10px 0;
+    height: fit-content;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #searchbuttoon {
+    width: 100%;
+    margin-top: 16px;
+    padding: 0 12px;
+  }
+
+  #leftside-buttons {
+    /* margin-top: 30px; */
+    padding: 20px;
+  }
+
+  /* #searchbox #tabs #rentbutton,
+  #searchbox #tabs #sellbutton {
+    width: 146px;
+  } */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 992px) {
+  #all-prop-card-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  #all-prop-card-img {
+    border-radius: 12px 12px 0 0;
+  }
+}
+
+/* AgentDetails Page  */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #agentDetailsSect .agentContainer #card-owner-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #agentDetailsSect .agentContainer .owner-img-div {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #agentDetailsSect .agentContainer .owner-add {
+    font-size: 15px;
+    color: #282f39c2;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #agentDetailsSect .agentContainer .card-body .owner-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  #agentDetailsSect .agentContainer .aboutOwnerRow2 {
+    gap: 12px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  #agentDetailsSect .agentContainer #card-owner-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #agentDetailsSect .agentContainer .owner-img-div {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #agentDetailsSect .agentContainer .owner-add {
+    font-size: 15px;
+    color: #282f39c2;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #agentDetailsSect .agentContainer .card-body .owner-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  #agentDetailsSect .agentContainer .card-body .enquiry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  #agentDetailsSect .agentContainer .aboutOwnerRow2 {
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  #agentDetailsSect .agentContainer #main_card .sell_teg {
+    top: 58%;
+  }
+
+  #agentDetailsSect .agentContainer #main_card .price_teg {
+    top: 56%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 574px) {
+  #agentDetailsSect .agentContainer #card-owner-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #agentDetailsSect .agentContainer .owner-img-div {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #agentDetailsSect .agentContainer .owner-add {
+    font-size: 15px;
+    color: #282f39c2;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #agentDetailsSect .agentContainer .card-body .owner-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  #agentDetailsSect .agentContainer .card-body .enquiry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  #agentDetailsSect .agentContainer #owner-deatils-card .card-body {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  #agentDetailsSect .agentContainer .card-body .owner-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+  }
+
+  #agentDetailsSect .agentContainer .card-body #contactDetail {
+    width: 100%;
+  }
+
+  #agentDetailsSect .agentContainer .card-body .deatilss {
+    gap: 1px;
+    width: 100%;
+  }
+
+  #agentDetailsSect .agentContainer .aboutOwnerRow2 {
+    gap: 12px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  #agentDetailsSect .agentContainer #main_card .sell_teg {
+    top: 144px;
+  }
+
+  #agentDetailsSect .agentContainer #main_card .price_teg {
+    top: 132px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #agentDetailsSect .agentContainer #main_card .sell_teg {
+    top: 120px;
+  }
+
+  #agentDetailsSect .agentContainer #main_card .price_teg {
+    top: 100px;
+    font-size: 14px;
+  }
+
+  #agentDetailsSect
+    .agentContainer
+    #main_card
+    div#feature_card_footer.card-footer {
+    /* padding: 16px 16px; */
+    border-radius: 0 0 12px 12px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .all-prop_sell {
+    top: unset;
+    bottom: 41%;
+  }
+
+  .all-prop_price {
+    top: 50%;
+    right: 10%;
+  }
+
+  #agentDetailsSect .agentContainer #main_card .sell_teg {
+    top: 190px;
+  }
+
+  #agentDetailsSect .agentContainer #main_card .price_teg {
+    top: 176px;
+  }
+}
+
+@media only screen and (min-width: 423px) and (max-width: 767px) {
+  .all-footer-body {
+    gap: 20px;
+  }
+
+  .all-prop_sell {
+    bottom: 56%;
+  }
+
+  .all-prop_price {
+    top: 36%;
+  }
+}
+
+@media only screen and (min-width: 325px) and (max-width: 420px) {
+  .all-prop_sell {
+    bottom: 60%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  #card_img {
+    border-radius: 12px 12px 0 0;
+    height: 230px;
+  }
+
+  #agentDetailsSect .agentContainer #main_card .sell_teg {
+    top: 214px;
+  }
+
+  #agentDetailsSect .agentContainer #main_card .price_teg {
+    top: 198px;
+  }
+}
+
+
+@media only screen and (max-width: 574px){
+  .open_drawer{
+    display: none !important;
+  }
+}
+

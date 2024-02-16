@@ -1,0 +1,11 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "89C47N4UTZ.com.ebroker.wrteam",
+        "paths": ["*"]
+      }
+    ]
+  }
+}

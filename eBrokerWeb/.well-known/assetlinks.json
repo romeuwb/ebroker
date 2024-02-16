@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.ebroker.wrteam",
+    "sha256_cert_fingerprints":
+    ["01:3D:DD:A2:67:9B:BD:71:43:3A:32:CF:2E:F7:8D:87:49:60:D4:63:89:E9:89:96:A4:6E:E3:5C:21:71:36:B0"]
+  }
+}]

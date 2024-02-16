@@ -1,0 +1,38 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^properties-details/([^/]+)/$ properties-details/[slug]/index.html [L]
+    RewriteRule ^article-details/([^/]+)/$ article-details/[slug]/index.html [L]
+    RewriteRule ^properties/categories/([^/]+)/$ properties/categories/[slug]/index.html [L]
+    RewriteRule ^properties/city/([^/]+)$ properties/city/[slug].html [L]
+    RewriteRule ^about-us$ /about-us.html [L]
+    RewriteRule ^agent-deatils$ /agent-deatils.html [L]
+    RewriteRule ^all-categories$ /all-categories.html [L]
+    RewriteRule ^articles$ /articles.html [L]
+    RewriteRule ^contact-us$ /contact-us.html [L]
+    RewriteRule ^featured-properties$ /featured-properties.html [L]
+    RewriteRule ^listby-agents$ /listby-agents.html [L]
+    RewriteRule ^most-viewed-properties$ /most-viewed-properties.html [L]
+    RewriteRule ^most-favorite-properties$ /most-favorite-properties.html [L]
+    RewriteRule ^privacy-policy$ /privacy-policy.html [L]
+    RewriteRule ^properties/all-properties$ /properties/all-properties.html [L]
+    RewriteRule ^properties-nearby-city$ /properties-nearby-city.html [L]
+    RewriteRule ^search$ /search.html [L]
+    RewriteRule ^subscription-plan$ /subscription-plan.html [L]
+    RewriteRule ^terms-and-condition$ /terms-and-condition.html [L]
+    RewriteRule ^user$ /user.html [L]
+    RewriteRule ^user-register$ /user-register.html [L]
+    RewriteRule ^user/advertisement$ /user/advertisement.html [L]
+    RewriteRule ^user/dashboard$ /user/dashboard.html [L]
+    RewriteRule ^user/user/chat$ /user/user/chat.html [L]
+    RewriteRule ^user/edit-property$ /user/edit-property.html [L]
+    RewriteRule ^user/favorites-properties$ /user/favorites-properties.html [L]
+    RewriteRule ^user/notifications$ /user/notifications.html [L]
+    RewriteRule ^user/profile$ /user/profile.html [L]
+    RewriteRule ^user/properties$ /user/properties.html [L]
+    RewriteRule ^user/subscription$ /user/subscription.html [L]
+    RewriteRule ^user/transaction-history$ /user/transaction-history.html [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ /404.html [L]
+</IfModule>

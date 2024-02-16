@@ -1,0 +1,4 @@
+
+APP_NAME=eBroker
+
+APP_PACKAGE=com.ebroker.wrteam
